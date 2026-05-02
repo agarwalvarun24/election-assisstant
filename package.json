@@ -1,0 +1,26 @@
+{
+  "name": "election-assistant",
+  "version": "1.0.0",
+  "description": "ElectionIQ — AI-powered assistant to help citizens understand the election process",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node src/tests/basic.test.js"
+  },
+  "keywords": ["election", "ai", "assistant", "civic", "democracy"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
